@@ -1,0 +1,117 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-image: url('/static/Imagem/capa-blog-14_resized.png'); /* Caminho da imagem */
+   background-position: center; 
+   background-size: cover;          /* A imagem cobre toda a área */
+  background-color: #004080;
+  color: black;
+  padding: 80px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: #0066cc;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #005bb5;
+}
+
+main section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+main section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+main section li {
+  margin-bottom: 10px;
+}
+
+main section a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+main section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.accessibility-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.accessibility-buttons button {
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+}
+
+.accessibility-buttons button:hover {
+  background-color: #005bb5;
+}
