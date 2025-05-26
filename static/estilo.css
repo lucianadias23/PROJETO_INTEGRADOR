@@ -25,11 +25,11 @@ header {
   background-size: cover;          /* A imagem cobre toda a área */
   background-color: #004080;
   color: black;
-  padding: 40px 0;
+  padding: 10px 0;
   text-align: center;
   font-size: 42px;
   font-weight: bold;
-  color: white;
+  color: yellow;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
   letter-spacing: 3px;
